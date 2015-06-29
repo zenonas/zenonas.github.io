@@ -1,13 +1,37 @@
-# Site settings
-title: Zen Kyprianou
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Zen's thoughts on programming, apps, tech, and other general ramblings about
+name: Zen Kyprianou
+description: Zen's thoughts on programming, apps, tech, and other general ramblings about
   the world we live in.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://zenonas.com" # the base hostname & protocol for your site
-twitter_username: zenonkyp
-github_username: zenonas
+meta_description: "Zen's thoughts on programming, apps, tech, and other general ramblings about
+  the world we live in."
 
-# Build settings
-markdown: kramdown
+aboutPage: true
+
+markdown: redcarpet
+highlighter: pygments
+
+paginate: 20
+baseurl: /
+domain_name: 'http://zenonas.com'
+google_analytics: 'UA-40056240-2'
+disqus_shortname: 'zenkyprianou'
+
+# Details for the RSS feed generator
+url:            'http://zenonas.com'
+author:         'Zen Kyprianou'
+authorTwitter:  'zenonkyp'
+
+permalink:       /:year/:title/
+
+defaults:
+    -
+        scope:
+            path: "" # empty string for all files
+            type: pages
+        values:
+            layout: default
+    -
+        scope:
+            path: "" # empty string for all files
+            type: posts
+        values:
+            layout: post
