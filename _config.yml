@@ -13,7 +13,7 @@ paginate: 20
 baseurl: /
 domain_name: 'http://zenonas.com'
 google_analytics: 'UA-40056240-2'
-disqus_shortname: 'zenkyprianou'
+disqus_shortname: 'zenonas'
 
 # Details for the RSS feed generator
 url:            'http://zenonas.com'
