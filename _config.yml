@@ -7,7 +7,7 @@ meta_description: "Zen's thoughts on programming, apps, tech, and other general 
 aboutPage: true
 
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 
 paginate: 20
 baseurl: /
