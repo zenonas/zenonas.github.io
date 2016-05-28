@@ -6,7 +6,7 @@ meta_description: "Zen's thoughts on programming, apps, tech, and other general 
 
 aboutPage: true
 
-markdown: redcarpet
+markdown: kramdown
 highlighter: pygments
 
 paginate: 20
